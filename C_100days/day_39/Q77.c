@@ -22,11 +22,11 @@ True
 int main()
 {
     int r, c, f=1;
-    printf("Enter number of rows and columns in matrix:\n");
+    printf("Enter number of rows and columns in matrix:\n") ;
     scanf("%d %d", &r, &c);
     int mat[r][c];
 
-    printf("Enter elements to matrix: \n");
+    printf("Enter elements to matrix: \n") ;
     for(int i=0; i<r; i++)
     {
         for(int j=0; j<c; j++)
@@ -47,6 +47,7 @@ int main()
             }
         }
     }
+
 
     if(f==1)
     printf("diagonal distinct = True");

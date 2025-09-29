@@ -14,7 +14,7 @@ Output 1:
 int main()
 {
     int r, c;
-    printf("Enter number of rows and columns in matrix:\n");
+    printf("Enter number of rows and columns in matrix:\n") ;
     scanf("%d %d", &r, &c);
     int mat[r][c];
 

@@ -15,13 +15,13 @@ Output 2:
 #include <stdio.h>
 int main()
 {
-    char ch[100];
+    char str[100];
     printf("Enter a string(Without spaces):\n");
-    scanf("%s", ch);
+    scanf("%s", str);
     
     int c=0, i=0;
 
-    while(ch[i] != '\0')
+    while(str[i] != '\0')
     {
         c++;
         i++;

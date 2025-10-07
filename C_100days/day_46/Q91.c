@@ -24,7 +24,7 @@ int main()
             str[j++] = str[i];
         }
     }
-    str[j] = '\0';
+    str[j] = '\0' ;
     printf("Output: %s\n", str);
 
     return 0;

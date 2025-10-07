@@ -25,7 +25,6 @@ int main()
         if (str[i] == ch)
             count++;
     }
-
     printf("Frequency of '%c' = %d\n", ch, count);
 
     return 0;

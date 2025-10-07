@@ -31,6 +31,7 @@ int main()
             c++;
         }
     }
+    
     printf("Vowels = %d, Consonants = %d", v, c);
 
     return 0;

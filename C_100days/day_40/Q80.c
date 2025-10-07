@@ -67,7 +67,7 @@ int main()
         {
             for (int k = 0; k < c1; k++) 
             {
-                result[i][j] += a[i][k] * b[k][j];
+                result[i][j] += a[i][k] * b[k][j] ;
             }
         }
     }

@@ -12,7 +12,7 @@ enum Gender {MALE, FEMALE, OTHER};
 
 struct Person 
 {
-    enum Gender gender;
+    enum Gender g;
 };
 
 int main() 
@@ -23,13 +23,13 @@ int main()
     scanf("%s", input);
 
     if (strcmp(input, "MALE") == 0)
-        p.gender = MALE;
+        p.g = MALE;
     else if (strcmp(input, "FEMALE") == 0)
-        p.gender = FEMALE;
+        p.g = FEMALE;
     else
-        p.gender = OTHER;
+        p.g = OTHER;
 
-    switch (p.gender) 
+    switch (p.g) 
     {
         case MALE:
             printf("Male");

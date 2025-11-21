@@ -22,14 +22,14 @@ int main()
     enum Role r;
 
     printf("Enter role (ADMIN/USER/GUEST): ");
-    scanf("%s", input);
+    scanf("%s",input);
 
     if (strcmp(input,"ADMIN") == 0)
-    r = ADMIN;
+    r=ADMIN;
     else if (strcmp(input, "USER") == 0)
-    r = USER;
+    r=USER;
     else
-    r = GUEST;
+    r=GUEST;
 
     switch (r) 
     {

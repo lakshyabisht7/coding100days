@@ -17,7 +17,7 @@ int main()
     char input[10];
     enum Month m;
 
-    // Input example: FEB
+    printf("Enter first 3 letters of the month of your choice. (Eg: JAN/FEB/DEC, etc)");
     scanf("%s", input);
 
     // Convert string to enum
@@ -34,8 +34,8 @@ int main()
     else if (strcmp(input, "NOV") == 0) m = NOV;
     else m = DEC;
 
-    // Output days for each month
-    switch (m) {
+    switch (m) 
+    {
         case JAN: printf("31 days\n"); break;
         case FEB: printf("28 or 29 days\n"); break;
         case MAR: printf("31 days\n"); break;
@@ -49,6 +49,5 @@ int main()
         case NOV: printf("30 days\n"); break;
         case DEC: printf("31 days\n"); break;
     }
-
     return 0;
 }

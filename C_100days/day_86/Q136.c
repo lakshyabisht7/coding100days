@@ -9,7 +9,7 @@ Output 1:
 #include <stdio.h>
 #include <string.h>
 
-enum Choice { ADD, SUBTRACT, MULTIPLY };
+enum Choice {ADD, SUBTRACT, MULTIPLY};
 
 int main() 
 {

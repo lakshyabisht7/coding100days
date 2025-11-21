@@ -10,7 +10,7 @@ Operation failed
 #include <stdio.h>
 #include <string.h>
 
-enum Status { SUCCESS, FAILURE, TIMEOUT };
+enum Status {SUCCESS, FAILURE, TIMEOUT};
 
 int main() 
 {

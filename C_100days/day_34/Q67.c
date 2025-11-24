@@ -12,32 +12,32 @@ Output 1:
 #include <stdio.h>
 int main() 
 {
-    int n,pos,x;
+    int n, pos, x;
     printf("Enter Size of array: ");
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
     
     printf("Enter elements of array:\n");
     for (int i=0; i<n; i++) 
     {
-        scanf("%d",&arr[i]);
+        scanf("%d", &arr[i]);
     }
 
-    printf("Enter index and element to insert\n");
-    scanf("%d %d",&pos,&x);
+    printf("Enter index and element resp. to insert\n");
+    scanf("%d %d", &pos, &x);
 
     for (int i=n; i>pos; i--) 
     {
-        arr[i]=arr[i-1];
+        arr[i] = arr[i - 1];
     }
-    arr[pos]=x;
+    arr[pos] = x;
     n++;
 
-    printf("New Array: ")
+    printf("Modified Array: ")
     for (int i=0; i<n; i++) 
     {
-        printf("%d ",arr[i]);
+        printf("%d ", arr[i]);
     }
-
+                   
     return 0;
 }

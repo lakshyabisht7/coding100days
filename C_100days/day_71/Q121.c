@@ -29,6 +29,6 @@ int main()
     fprintf(fp,"Name: %s\nAge: %d\n",name,age);
     fclose(fp);
 
-    printf("File successfully created.\n");
+    printf("File created successfully! Data written to info.txt\n");
     return 0;
 }

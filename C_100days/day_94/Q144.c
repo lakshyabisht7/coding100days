@@ -27,7 +27,7 @@ int main()
 
     scanf("%s %d %f", s.name, &s.roll, &s.marks);
 
-    printStudent(s);
+    displayStudent(s);
 
     return 0;
 }

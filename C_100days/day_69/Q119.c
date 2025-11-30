@@ -21,7 +21,6 @@ Output 3:
 int main() 
 {
     int n;
-    printf("Enter n:\n");
     scanf("%d",&n);
     int arr[n],freq[n+1];
 
